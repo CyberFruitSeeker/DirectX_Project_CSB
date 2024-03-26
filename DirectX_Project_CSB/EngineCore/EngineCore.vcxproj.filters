@@ -4,6 +4,9 @@
     <Filter Include="Core">
       <UniqueIdentifier>{1338ed61-f14c-449a-a61b-30aeeaec59da}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PreCompile">
+      <UniqueIdentifier>{049e51e6-512e-4e50-8e81-09cf6b3cb4e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EngineCore.cpp">
@@ -12,6 +15,9 @@
     <ClCompile Include="EngineOption.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="PreCompile.cpp">
+      <Filter>PreCompile</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EngineCore.h">
@@ -19,6 +25,9 @@
     </ClInclude>
     <ClInclude Include="EngineOption.h">
       <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PreCompile.h">
+      <Filter>PreCompile</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
