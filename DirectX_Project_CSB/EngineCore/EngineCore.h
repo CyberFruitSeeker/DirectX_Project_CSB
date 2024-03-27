@@ -1,7 +1,9 @@
 #pragma once
 
 #include <EnginePlatform/EngineWindow.h>
+#include <EngineBase/EngineTime.h>
 
+#include "EngineGraphicDevice.h"
 #include "EngineOption.h"
 
 #pragma comment (lib, "EngineBase.lib")
@@ -47,6 +49,8 @@ private:
 	FEngineOption EngineOption;
 	UEngineTime MainTimer;
 	UEngineWindow EngineWindow;
+	UEngineGraphicDevice EngineDevice;
+
 	UserCore* UserCorePtr = nullptr;
 
 	void EngineOptionInit();
