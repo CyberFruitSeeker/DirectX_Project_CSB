@@ -34,6 +34,18 @@
     <Filter Include="Object\Rendering\Component">
       <UniqueIdentifier>{b17e04b5-c849-4d50-94c3-6784aa38a2f0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Object\EngineContent">
+      <UniqueIdentifier>{b56a633e-d7b6-4860-b295-6df06bb46991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Mesh">
+      <UniqueIdentifier>{9e2c8ab6-41a2-4682-97b7-784253e67e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Shader">
+      <UniqueIdentifier>{23add80b-840b-47a1-abef-896dbcf49a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\RenderingSetting">
+      <UniqueIdentifier>{e0dcc0f6-9c6f-4e75-a463-d877126b9f23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EngineCore.cpp">
@@ -81,6 +93,39 @@
     <ClCompile Include="Camera.cpp">
       <Filter>Object\Rendering</Filter>
     </ClCompile>
+    <ClCompile Include="DefaultSceneComponent.cpp">
+      <Filter>Object\EngineContent</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineVertexBuffer.cpp">
+      <Filter>Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineMesh.cpp">
+      <Filter>Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineBuffer.cpp">
+      <Filter>Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineIndexBuffer.cpp">
+      <Filter>Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGraphicDevice_Resources.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineMaterial.cpp">
+      <Filter>Resource\RenderingSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineRasterizer.cpp">
+      <Filter>Resource\RenderingSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineVertexShader.cpp">
+      <Filter>Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineShader.cpp">
+      <Filter>Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePixelShader.cpp">
+      <Filter>Resource\Shader</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EngineCore.h">
@@ -127,6 +172,39 @@
     </ClInclude>
     <ClInclude Include="Camera.h">
       <Filter>Object\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultSceneComponent.h">
+      <Filter>Object\EngineContent</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineVertexBuffer.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMesh.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineVertex.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuffer.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineIndexBuffer.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMaterial.h">
+      <Filter>Resource\RenderingSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineRasterizer.h">
+      <Filter>Resource\RenderingSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineVertexShader.h">
+      <Filter>Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineShader.h">
+      <Filter>Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePixelShader.h">
+      <Filter>Resource\Shader</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

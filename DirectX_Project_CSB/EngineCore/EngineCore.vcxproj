@@ -171,6 +171,14 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="DefaultSceneComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineBuffer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="EngineCore.h">
       <SubType>
       </SubType>
@@ -179,7 +187,27 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="EngineIndexBuffer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineMaterial.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineMesh.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="EngineOption.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EnginePixelShader.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineRasterizer.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -187,7 +215,20 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="EngineShader.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="EngineTexture.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineVertex.h" />
+    <ClInclude Include="EngineVertexBuffer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineVertexShader.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -233,6 +274,14 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="DefaultSceneComponent.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineBuffer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="EngineCore.cpp">
       <SubType>
       </SubType>
@@ -241,7 +290,28 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="EngineGraphicDevice_Resources.cpp" />
+    <ClCompile Include="EngineIndexBuffer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineMaterial.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineMesh.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="EngineOption.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EnginePixelShader.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineRasterizer.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -249,7 +319,19 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="EngineShader.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="EngineTexture.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineVertexBuffer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineVertexShader.cpp">
       <SubType>
       </SubType>
     </ClCompile>

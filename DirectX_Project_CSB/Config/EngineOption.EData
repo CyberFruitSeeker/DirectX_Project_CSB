@@ -1,4 +1,4 @@
 WindowTitle : [Muse Dash]
 WindowScale : [1280], [720]
 IsDebug : [false]
-ClearColor : R[1],G[0.5],B[0.5]
+ClearColor : R[1],G[0],B[0.6]
