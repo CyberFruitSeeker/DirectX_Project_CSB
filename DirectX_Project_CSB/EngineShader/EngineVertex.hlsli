@@ -4,5 +4,6 @@
 
 struct FEngineVertex
 {
+    // 내가 정점을 어떻게 구성했는지는 알려줘야 랜더링이 가능합니다.
     float4 POSITION : POSITION;
 };
