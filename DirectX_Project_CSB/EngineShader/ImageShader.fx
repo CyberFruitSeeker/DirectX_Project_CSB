@@ -36,7 +36,7 @@ ImageVSOutPut ImageShader_VS(FEngineVertex _Input)
     ImageVSOutPut Out = (ImageVSOutPut) 0;
     
         // hlsl 스위즐링(swizzling) 문법.
-    Out.POSITION.xyz = _Input.POSITION.xyz * 2.0f;
+    Out.POSITION.xyz = _Input.POSITION.xyz * 1.0f;
     Out.POSITION.w = 1.0f;
     return Out;
 }
@@ -57,7 +57,7 @@ ImagePSOutPut ImageShader_PS(ImageVSOutPut _Input)
         // 그냥 구조체처럼 초기화 하는게 안되는데.
     ImagePSOutPut Out = (ImagePSOutPut) 0;
     
-    Out.COLOR = float4(1.0f, 0.0f, 0.0f, 1.0f);
+    Out.COLOR = float4(0.3f, 0.8f, 0.7f, 1.0f);
     
     return Out;
 }
