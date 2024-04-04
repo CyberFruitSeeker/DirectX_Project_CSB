@@ -49,6 +49,21 @@
     <Filter Include="Resource\ShaderResources">
       <UniqueIdentifier>{31edab0e-2996-4559-b905-355b9097b497}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{c8433416-5bc2-4526-8f24-16750e170b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DirectXTex">
+      <UniqueIdentifier>{f21259ce-dd61-4118-97b7-1d945d4515de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DirectXTex\Debug">
+      <UniqueIdentifier>{cc883943-2d4e-44a2-b88e-c8f3d32b0a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DirectXTex\Inc">
+      <UniqueIdentifier>{62b4a6e6-ebc5-41b4-b0a6-13e62b2554a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DirectXTex\Release">
+      <UniqueIdentifier>{04a20cb0-e853-44a7-aa23-7a0060f8e342}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EngineCore.cpp">
@@ -144,6 +159,9 @@
     <ClCompile Include="EngineShaderResources.cpp">
       <Filter>Resource\ShaderResources</Filter>
     </ClCompile>
+    <ClCompile Include="EngineSampler.cpp">
+      <Filter>Resource\Texture</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EngineCore.h">
@@ -238,6 +256,9 @@
     </ClInclude>
     <ClInclude Include="EngineEnums.h">
       <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSampler.h">
+      <Filter>Resource\Texture</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

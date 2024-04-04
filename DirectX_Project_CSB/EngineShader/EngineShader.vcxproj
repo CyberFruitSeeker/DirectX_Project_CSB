@@ -157,6 +157,7 @@
     </FxCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="EngineTexture.hlsli" />
     <None Include="EngineVertex.hlsli" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
